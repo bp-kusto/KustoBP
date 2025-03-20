@@ -3,6 +3,10 @@
 # Демо процес [<sup>📥 завантажити</sub>](./Sources)
 
 
+<a href="./Sources/P25076j__SampleProcess.elma3" download>
+  <button>Завантажити файл</button>
+</a>
+
 [📥 Процес](./Sources/P25076j__SampleProcess.elma3)  
 [📥 Шаблон документу процесу](./Sources/DT25076j__SampleProces.xlsx)
 
