@@ -1,6 +1,6 @@
 ﻿[`⚙️ СЦЕНАРІЇ`](./scripts.md)   
 
-# [ДЕМО ПРОЦЕС](../SampleProcess.md) / 🌐 КОНТЕКСТ
+# [ДЕМО ПРОЦЕС](../readme.md) / 🌐 КОНТЕКСТ
 
 | Властивість </br> `Property` | Тип </br> `Type` | Примітки |
 | :--- | :--- | :--- |

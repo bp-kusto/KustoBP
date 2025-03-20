@@ -1,6 +1,6 @@
 ﻿[`🌐 КОНТЕКСТ`](./context.md) 
 
-# [ДЕМО ПРОЦЕС](../SampleProcess.md) / ⚙️ СЦЕНАРІЇ
+# [ДЕМО ПРОЦЕС](../readme.md) / ⚙️ СЦЕНАРІЇ
 
 ```cs
 using System;
