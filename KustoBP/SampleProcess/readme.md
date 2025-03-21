@@ -175,44 +175,44 @@ public partial class P25076j_SampleProcess_Scripts: EleWise.ELMA.Workflow.Script
 - дії які потрібно зробити під час або після переносу
 ```cs
 /// <remarks> 2025-03-19 17-20 • P25076j__SampleProcess
-    /// • Group of users
-    ///     [ ] ⓿⚙️ Процеси / 25076j ⚙️ SampleProcess / ▶️ Ініціатори
-    ///     [ ]
-    /// 
-    /// • Objects
-    ///     [+] ⓿ PC25076o02 🛠️ SampleProcess(Объект) 
-    ///     [+] ⓿❶ 25048m12 📘 TaskId
-    ///     [+] ⓿❶ 25045p44 📘 Учасник процесу
-    ///     [ ]
-    /// 
-    /// • Enums
-    ///     [ ] ⓿ E25076j05 🎲 Статус процесу(Перечисление)
-    ///     [ ]
-    /// 
-    /// • Documents
-    ///     [ ] ⓿ D25076o19 📜 SampleDoc(Документ)
-    ///     [ ]
-    /// 
-    /// • Modules
-    ///     [ ] Kusto.Docflow.Directory
-    ///     [ ] Kusto.Docflow.DocGen
-    ///     [ ] Kusto.Ext.CFR
-    ///     [ ] Kusto.Ext.Department
-    ///     [ ] Kusto.Ext.Elma_Entity
-    ///     [ ] Kusto.Ext.Numerator
-    ///     [ ] Kusto.Ext.Obj25045p44_ProcMember
-    ///     [ ] Kusto.Ext.Sys_DateTime
-    ///     [ ] Kusto.Ext.Sys_Double
-    ///     [ ] Kusto.Ext.Sys_Int
-    ///     [ ] Kusto.Ext.Sys_TimeSpan
-    ///     [ ] Kusto.Ext.System.Url
-    ///     [ ]
-    ///     
-    /// • Aux processes
-    ///     [ ]
-    ///		
-    /// ■ TODO
-    ///     [ ] Зкопіювати файл "DT24306n16_ProtocolOfBudgetChanges.xlsx" в папку "C:\KustoDocTemplates\", за необхідності вказати повний шлях до цього файлу в об'єкті конфігурації процесу (PC25076o02 🛠️ SampleProcess)
-    ///		
-    /// </remarks>
+/// • Group of users
+///     [ ] ⓿⚙️ Процеси / 25076j ⚙️ SampleProcess / ▶️ Ініціатори
+///     [ ]
+/// 
+/// • Objects
+///     [+] ⓿ PC25076o02 🛠️ SampleProcess(Объект) 
+///     [+] ⓿❶ 25048m12 📘 TaskId
+///     [+] ⓿❶ 25045p44 📘 Учасник процесу
+///     [ ]
+/// 
+/// • Enums
+///     [ ] ⓿ E25076j05 🎲 Статус процесу(Перечисление)
+///     [ ]
+/// 
+/// • Documents
+///     [ ] ⓿ D25076o19 📜 SampleDoc(Документ)
+///     [ ]
+/// 
+/// • Modules
+///     [ ] Kusto.Docflow.Directory
+///     [ ] Kusto.Docflow.DocGen
+///     [ ] Kusto.Ext.CFR
+///     [ ] Kusto.Ext.Department
+///     [ ] Kusto.Ext.Elma_Entity
+///     [ ] Kusto.Ext.Numerator
+///     [ ] Kusto.Ext.Obj25045p44_ProcMember
+///     [ ] Kusto.Ext.Sys_DateTime
+///     [ ] Kusto.Ext.Sys_Double
+///     [ ] Kusto.Ext.Sys_Int
+///     [ ] Kusto.Ext.Sys_TimeSpan
+///     [ ] Kusto.Ext.System.Url
+///     [ ]
+///     
+/// • Aux processes
+///     [ ]
+///		
+/// ■ TODO
+///     [ ] Зкопіювати файл "DT24306n16_ProtocolOfBudgetChanges.xlsx" в папку "C:\KustoDocTemplates\", за необхідності вказати повний шлях до цього файлу в об'єкті конфігурації процесу (PC25076o02 🛠️ SampleProcess)
+///		
+/// </remarks>
 ```
