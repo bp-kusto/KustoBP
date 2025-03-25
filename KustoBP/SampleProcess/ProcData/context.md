@@ -1,4 +1,4 @@
-﻿[`⚙️ СЦЕНАРІЇ`](./scripts.md)   
+﻿[🏡 HOME](../../readme.md)   [`⚙️ СЦЕНАРІЇ`](./scripts.md)   
 
 # [ДЕМО ПРОЦЕС](../readme.md) / 🌐 КОНТЕКСТ
 
