@@ -8,8 +8,10 @@ internal class Program {
         Console.InputEncoding = Console.OutputEncoding = Encoding.UTF8;
         NTopMenu topMenuChoice;
 
+        NWorkId workId = ShowMenu<NWorkId>("Оберіть ідентифікатор робіт");
+
         do {
-            topMenuChoice = ShowMenu<NTopMenu>();
+            topMenuChoice = ShowMenu<NTopMenu>("Для чого створити ідентифікатор?");
             AnsiConsole.MarkupLine($"Параметри ідентифікатору для: {NKey.Title.GetTag(topMenuChoice)}");
 
             string? displayName =   PromptText("Відображувана назва:");
@@ -18,7 +20,7 @@ internal class Program {
             string? sign = NKey.Sign.GetTag(topMenuChoice);
             string timeStamp = (PromptDate($"    Мітка часу:", "yyyy-MM-dd", "yyyy-MM-dd HH-mm") ?? DateTime.Now).AsShortTimeCode();
 
-            AnsiConsole.MarkupLine($"\n[steelblue]{abbr}{timeStamp}[/] {sign} {displayName}\n[palegreen3]{abbr}{timeStamp}__{codeName}[/]\n");
+            AnsiConsole.MarkupLine($"\n{NKey.Title.GetTag(workId)}  [steelblue]{abbr}{timeStamp}[/] {sign} {displayName}\n[palegreen3]{abbr}{timeStamp}__{codeName}[/]\n");
 
         } while (topMenuChoice != NTopMenu.Exit);
     }
@@ -46,20 +48,43 @@ internal class Program {
     }
     
 
-    private static T ShowMenu<T>() where T : struct, Enum {
+    private static T ShowMenu<T>(String menuTitle) where T : struct, Enum {
         Dictionary<string, T> menuItemsAndKeys = NKey.Title.GetTags<T>();
 
         var userChoice = AnsiConsole.Prompt(
             new SelectionPrompt<string>()
-                .Title("Для чого створити ідентифікатор?")
+                .Title(menuTitle)
                 .PageSize(10)
                 .MoreChoicesText("[grey](Move up and down to reveal more items)[/]")
                 .AddChoices(menuItemsAndKeys.Keys));
+
         return menuItemsAndKeys[userChoice];
     }
 }
 
 
+public enum NWorkId {
+    [Tag(NKey.Title, "❶")]
+    Id01,
+    [Tag(NKey.Title, "❷")]
+    Id02,
+    [Tag(NKey.Title, "❸")]
+    Id03,
+    [Tag(NKey.Title, "❹")]
+    Id04,
+    [Tag(NKey.Title, "❺")]
+    Id05,
+    [Tag(NKey.Title, "❻")]
+    Id06,
+    [Tag(NKey.Title, "❼")]
+    Id07,
+    [Tag(NKey.Title, "❽")]
+    Id08,
+    [Tag(NKey.Title, "❾")]
+    Id09,
+    [Tag(NKey.Title, "❿")]
+    Id10
+}
 
 
 public enum NTopMenu {
